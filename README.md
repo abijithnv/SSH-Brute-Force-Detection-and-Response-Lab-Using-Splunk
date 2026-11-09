@@ -18,7 +18,7 @@ Simulated SSH login attempts using Hydra from Kali Linux, monitored Ubuntu authe
 | Firewall | UFW |
 
 ## 🔄 Lab Workflow
-<img align="center" width="600" height="620" alt="SSH Brute-Force Detection Flow Infographic" src="https://github.com/user-attachments/assets/bad50899-a290-4491-b2ac-48de2b95aa69" />
+<img width="580" height="600" alt="SSH Brute-Force Detection Flow Infographic" src="https://github.com/user-attachments/assets/bad50899-a290-4491-b2ac-48de2b95aa69" />
 
 ## 🔎 Splunk Detection Query
 
