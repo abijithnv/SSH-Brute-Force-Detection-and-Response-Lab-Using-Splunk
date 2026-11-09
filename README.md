@@ -48,7 +48,7 @@ Manual IP Blocking using UFW
 **Original SPL Query:**
 
 ```spl
-host="Ubuntu22" source="/var/log/auth.log" "Failed password"
+host="Ubuntu22" source="/var/log/auth.log" "sshd" "Failed password"
 | stats count by src_ip
 | where count >= 5
 | sort -count
