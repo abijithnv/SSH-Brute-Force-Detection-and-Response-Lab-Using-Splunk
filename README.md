@@ -100,7 +100,7 @@ Add actual screenshots demonstrating:
 <img width="1917" height="870" alt="image" src="https://github.com/user-attachments/assets/7b338982-3625-40b5-8966-999343736977" />
 
 3. SPL detection results.
-<img width="1917" height="655" alt="image" src="https://github.com/user-attachments/assets/027046b1-a1e3-4783-bd4e-6503a23ee9f7" />
+<img width="1917" height="637" alt="image" src="https://github.com/user-attachments/assets/e2e80c67-e6d3-40a8-8647-811a11ef3e52" />
 
 
 4. Custom alert configuration and its detected alerts.
