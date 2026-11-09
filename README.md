@@ -96,7 +96,10 @@ sudo ufw status numbered
 Add actual screenshots demonstrating:
 
 1. Ubuntu SSH authentication logs.
-2. Splunk log ingestion.
+<img width="1917" height="1031" alt="image" src="https://github.com/user-attachments/assets/e007da9b-a0b0-40f8-b668-a45885bb00a1" />
+
+2. Brute Force Attempt using Hydra.
+
 3. SPL detection results.
 4. Custom alert configuration.
 5. UFW firewall blocking rule.
@@ -135,4 +138,4 @@ This lab was developed for educational purposes and authorized security testing 
 ## 👨‍💻 Author
 
 **Abhijith N V**  
-B.Tech IT Graduate | Cybersecurity Learner | SOC Analyst Aspirant
+Cybersecurity Researcher | SOC Analyst Aspirant
