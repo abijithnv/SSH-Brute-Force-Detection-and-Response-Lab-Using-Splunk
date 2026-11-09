@@ -1,7 +1,5 @@
 # SSH-Brute-Force-Detection-and-Response-Lab-Using-Splunk
 Hands-on SOC lab demonstrating SSH brute-force detection using Splunk SIEM, Ubuntu authentication logs, Kali Linux Hydra, and UFW firewall-based response.
-# SSH Brute Force Detection & Response using Splunk SIEM
-
 ## 📌 Project Overview
 
 A hands-on SOC lab demonstrating SSH brute-force detection using Splunk Enterprise.
@@ -99,10 +97,21 @@ Add actual screenshots demonstrating:
 <img width="1917" height="1031" alt="image" src="https://github.com/user-attachments/assets/e007da9b-a0b0-40f8-b668-a45885bb00a1" />
 
 2. Brute Force Attempt using Hydra.
+<img width="1917" height="870" alt="image" src="https://github.com/user-attachments/assets/7b338982-3625-40b5-8966-999343736977" />
 
 3. SPL detection results.
-4. Custom alert configuration.
-5. UFW firewall blocking rule.
+<img width="1917" height="655" alt="image" src="https://github.com/user-attachments/assets/027046b1-a1e3-4783-bd4e-6503a23ee9f7" />
+
+
+4. Custom alert configuration and its detected alerts.
+<img width="1917" height="1025" alt="image" src="https://github.com/user-attachments/assets/31b21203-d470-4b43-92e5-3d449418fc60" />
+
+<img width="1917" height="960" alt="image" src="https://github.com/user-attachments/assets/df20a511-619a-47f2-91e1-96de139b7c59" />
+
+5. UFW firewall blocking rule and its results of blocking.
+<img width="1917" height="805" alt="image" src="https://github.com/user-attachments/assets/26dc25ae-7964-4fbe-98ec-9e2c1219979d" />
+
+
 
 ## 🎯 Skills Demonstrated
 
