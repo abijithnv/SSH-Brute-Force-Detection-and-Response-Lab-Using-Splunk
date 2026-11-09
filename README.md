@@ -67,16 +67,6 @@ host="Ubuntu22" source="/var/log/auth.log" "Failed password"
 
 **Detection threshold:** 5 or more failed attempts per source IP within the selected search time range.
 
-**Technical note:** The original query requires `src_ip` to be extracted by Splunk. If unavailable, the following suggested version extracts it from the raw event:
-
-```spl
-host="Ubuntu22" source="/var/log/auth.log" "Failed password"
-| rex "from (?<src_ip>\d{1,3}(?:\.\d{1,3}){3})"
-| stats count by src_ip
-| where count >= 5
-| sort -count
-```
-
 ## 🚨 Detection & Response
 
 **Detection:**
