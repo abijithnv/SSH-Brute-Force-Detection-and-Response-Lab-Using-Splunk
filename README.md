@@ -78,13 +78,13 @@ host="Ubuntu22" source="/var/log/auth.log" "sshd" "Failed password"
 Identified the suspicious source IP and manually blocked SSH traffic using UFW.
 
 ```bash
-sudo ufw deny from <Attacker-IP> to any port 22 proto tcp
+sudo ufw insert 1 deny from <Attacker-IP> to any port 22 proto tcp
 ```
 
 Verify the firewall rule:
 
 ```bash
-sudo ufw status numbered
+sudo ufw status
 ```
 
 *Note: IP blocking is performed manually, not automatically through Splunk.*
@@ -121,7 +121,7 @@ Add actual screenshots demonstrating:
 - Linux authentication log monitoring
 - SSH brute-force detection
 - Custom alert configuration
-- Incident investigation
+- Incident investigation and response
 - UFW firewall mitigation
 
 ## 🗺️ MITRE ATT&CK
