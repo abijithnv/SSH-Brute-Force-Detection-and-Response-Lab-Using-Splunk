@@ -18,30 +18,7 @@ Simulated SSH login attempts using Hydra from Kali Linux, monitored Ubuntu authe
 | Firewall | UFW |
 
 ## 🔄 Lab Workflow
-
-```text
-Kali Linux (Hydra)
-        |
-        | SSH Login Attempts
-        v
-Ubuntu 22.04 (Victim)
-        |
-        | /var/log/auth.log
-        v
-Splunk Universal Forwarder
-        |
-        v
-Splunk Enterprise (Windows 11)
-        |
-        v
-SSH Brute Force Detection
-        |
-        v
-Identify Suspicious Source IP
-        |
-        v
-Manual IP Blocking using UFW
-```
+<img width="1224" height="1285" alt="SSH Brute-Force Detection Flow Infographic" src="https://github.com/user-attachments/assets/bad50899-a290-4491-b2ac-48de2b95aa69" />
 
 ## 🔎 Splunk Detection Query
 
